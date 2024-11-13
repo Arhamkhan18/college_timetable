@@ -52,3 +52,7 @@ class TimetableService:
             db.session.delete(timetable)
             db.session.commit()
         return timetable
+    
+    @staticmethod
+    def posp():
+        print("hlo")
